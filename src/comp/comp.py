@@ -23,8 +23,10 @@ humans = [
 
 # Write a list comprehension that creates a list of names of everyone
 # whose name starts with 'D':
+
+# comprehension are constructs that allow squences to be built from other sequences 
 print("Starts with D:")
-a = []
+a = [i.name for i in humans if i.name[0] == "D" ]
 print(a)
 
 # Write a list comprehension that creates a list of names of everyone
