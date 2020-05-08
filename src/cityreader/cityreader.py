@@ -7,7 +7,7 @@ class City:
             self.lat = float(lat)
             self.lon = float(lon)
     def __str__(self):
-          return f"(Name: {self.name}, Latitute: {self.lat}, Longitude: {self.lon})"
+          return f"(Name: {self.name}, Latitude: {self.lat}, Longitude: {self.lon})"
 
 import csv
 # We have a collection of US cities with population over 750,000 stored in the
